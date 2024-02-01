@@ -81,11 +81,7 @@ std::cout<<"*****************************\n";
 std::cout<<"You answered correctly "<<total<<" out of 3 questions";
 return 0;
 }
-//takeouts-If i want to display each row in array i have to change number in cout below for loop and not try to mess up with array elements display calculation
-//If i want to let the user know in do-while loop that typing anything else besides given possibilities i have to use this combined with limits library:
-//std::cin.clear();
-//std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-//in do while loop the player is int,if wrong number is typed than its okay and user will be thrown back to the beggining of the loop,but if anything else besides numerics is typed,than log gets spammed
+
 
 
 
